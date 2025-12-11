@@ -10,7 +10,9 @@
 - `run_attack_comparison.py`: Sample attack and defense pipeline
     - This is the only file I recommend running since attack_workflow take a long time with lots of token usage. It will run three attacks, one with no defense, one with input filter, and one with PII filter.
     - I ran a sample output and you can see the results in `success_attack.md`
-        - Check the first successful attack [output](success_attack.md?plain=1#58) and [final confirmation](success_attack.md?plain=1#96).
+        - Check the first successful attack [output](success_attack.md?plain=1#L58-L69) and [final confirmation](success_attack.md?plain=1#L96-L97).
+        - Check the second failed attack, input filter [output](success_attack.md?plain=1#L116-L131), recommendation [output](success_attack.md?plain=1#L169), and [final confirmation](success_attack.md?plain=1#L198).
+        - Check the third failed attack, recommendation [output](success_attack.md?plain=1#L256), PII filter [output](success_attack.md?plain=1#L265-L284), and [final confirmation](success_attack.md?plain=1#L312).
 - `pdf_description_gen`: Folder containing PDF description generation loop
 - `recommendation_system`: Folder containing recommendation and defense filter
 - `attack_client.py`: Unified endpoint for prompt injection attack
